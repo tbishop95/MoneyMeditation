@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LessonsActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="177dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <ImageView
+        android:id="@+id/viewAccount"
+        android:layout_width="57dp"
+        android:layout_height="52dp"
+        android:onClick="viewAccount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/ic_account" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lessons"
+        android:textColor="#2699FB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <ImageView
+        android:id="@+id/lesson1"
+        android:layout_width="154dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        app:srcCompat="@drawable/ic_lessonboard" />
+
+
+
+    <TextView
+        android:id="@+id/chapterTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson1"
+        app:layout_constraintEnd_toEndOf="@+id/lesson1"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="@+id/lesson1"
+        app:layout_constraintTop_toTopOf="@+id/lesson1"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/lessonTxt1"
+        android:layout_width="106dp"
+        android:layout_height="39dp"
+        android:text="how deep is your debt?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson1"
+        app:layout_constraintEnd_toEndOf="@+id/lesson1"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="@+id/lesson1"
+        app:layout_constraintTop_toTopOf="@+id/lesson1"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <Button
+        android:id="@+id/lessonBtn1"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:text="BEGIN"
+        android:textSize="10sp"
+        app:backgroundTint="#2699FB"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson1"
+        app:layout_constraintEnd_toEndOf="@+id/lesson1"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/lesson1"
+        app:layout_constraintTop_toTopOf="@+id/lesson1"
+        app:layout_constraintVertical_bias="0.832" />
+
+
+    <ImageView
+        android:id="@+id/lesson2"
+        android:layout_width="154dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        app:srcCompat="@drawable/ic_lessonboard" />
+
+    <TextView
+        android:id="@+id/chapterTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson2"
+        app:layout_constraintEnd_toEndOf="@+id/lesson2"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="@+id/lesson2"
+        app:layout_constraintTop_toTopOf="@+id/lesson2"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/lessonTxt2"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:text="keeping in touch with your spending"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson2"
+        app:layout_constraintEnd_toEndOf="@+id/lesson2"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/lesson2"
+        app:layout_constraintTop_toTopOf="@+id/lesson2"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/lessonBtn2"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:text="BEGIN"
+        android:textSize="10sp"
+        app:backgroundTint="#2699FB"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson2"
+        app:layout_constraintEnd_toEndOf="@+id/lesson2"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/lesson2"
+        app:layout_constraintTop_toTopOf="@+id/lesson2"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <ImageView
+        android:id="@+id/lesson3"
+        android:layout_width="154dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875"
+        app:srcCompat="@drawable/ic_lessonboard" />
+
+    <TextView
+        android:id="@+id/chapterTxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson3"
+        app:layout_constraintEnd_toEndOf="@+id/lesson3"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="@+id/lesson3"
+        app:layout_constraintTop_toTopOf="@+id/lesson3"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/lessonTxt3"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:text="in trouble with money lenders?"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson3"
+        app:layout_constraintEnd_toEndOf="@+id/lesson3"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/lesson3"
+        app:layout_constraintTop_toTopOf="@+id/lesson3"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/lessonBtn3"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:text="BEGIN"
+        android:textSize="10sp"
+        app:backgroundTint="#2699FB"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson3"
+        app:layout_constraintEnd_toEndOf="@+id/lesson3"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/lesson3"
+        app:layout_constraintTop_toTopOf="@+id/lesson3"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <ImageView
+        android:id="@+id/lesson4"
+        android:layout_width="154dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875"
+        app:srcCompat="@drawable/ic_lessonboard" />
+
+    <TextView
+        android:id="@+id/chapterTxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAPTER 4"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson4"
+        app:layout_constraintEnd_toEndOf="@+id/lesson4"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="@+id/lesson4"
+        app:layout_constraintTop_toTopOf="@+id/lesson4"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/lessonTxt4"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:text="start the savings"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson4"
+        app:layout_constraintEnd_toEndOf="@+id/lesson4"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/lesson4"
+        app:layout_constraintTop_toTopOf="@+id/lesson4"
+        app:layout_constraintVertical_bias="0.301" />
+
+    <Button
+        android:id="@+id/lessonBtn4"
+        android:layout_width="89dp"
+        android:layout_height="34dp"
+        android:text="BEGIN"
+        android:textSize="10sp"
+        app:backgroundTint="#2699FB"
+        app:layout_constraintBottom_toBottomOf="@+id/lesson4"
+        app:layout_constraintEnd_toEndOf="@+id/lesson4"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/lesson4"
+        app:layout_constraintTop_toTopOf="@+id/lesson4"
+        app:layout_constraintVertical_bias="0.832" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
