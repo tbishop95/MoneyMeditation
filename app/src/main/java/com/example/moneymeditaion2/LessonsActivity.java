@@ -18,4 +18,24 @@ public class LessonsActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),Profile.class));
         finish();
     }
+
+    public void startLsn1(View view) {
+        startActivity(new Intent(getApplicationContext(),Chapter1.class));
+        finish();
+    }
+
+    public void startLsn2(View view) {
+        startActivity(new Intent(getApplicationContext(),Chapter2.class));
+        finish();
+    }
+
+    public void startLsn3(View view) {
+        startActivity(new Intent(getApplicationContext(),Chapter3.class));
+        finish();
+    }
+
+    public void startLsn4(View view) {
+        startActivity(new Intent(getApplicationContext(),Chapter4.class));
+        finish();
+    }
 }
