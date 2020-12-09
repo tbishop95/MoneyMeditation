@@ -5,11 +5,14 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Money Meditation"
+        android:logo="@drawable/ic_logo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyMeditaion2">
-        <activity android:name=".Quiz1"></activity>
+        <activity android:name=".Quiz2Activity"></activity>
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".Quiz1Activity" />
         <activity android:name=".Chapter4" />
         <activity android:name=".Chapter3" />
         <activity android:name=".Chapter2" />
@@ -18,7 +21,9 @@
         <activity android:name=".Profile" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

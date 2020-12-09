@@ -57,7 +57,7 @@ public class Chapter1 extends AppCompatActivity {
 
     public void takeQuiz(View view) {
         stopPlayer();
-        startActivity(new Intent(getApplicationContext(),LessonsActivity.class));
+        startActivity(new Intent(getApplicationContext(),Quiz1Activity.class));
         finish();
 
     }
