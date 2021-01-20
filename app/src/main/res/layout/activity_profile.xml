@@ -48,9 +48,10 @@
         android:layout_marginLeft="64dp"
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
+        android:clickable="false"
         android:text="DELETE ACCOUNT"
         android:textSize="20sp"
-        app:backgroundTint="#2699FB"
+        app:backgroundTint="#353535"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,15 +64,17 @@
         android:id="@+id/updateBtn"
         android:layout_width="283dp"
         android:layout_height="wrap_content"
+        android:clickable="false"
         android:text="UPDATE ACCOUNT"
         android:textSize="20sp"
-        app:backgroundTint="#2699FB"
+        app:backgroundTint="#353535"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintVertical_bias="0.739"
+        app:rippleColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/userName"

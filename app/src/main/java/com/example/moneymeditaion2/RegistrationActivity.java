@@ -28,7 +28,8 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterActivity extends AppCompatActivity {
+
+public class RegistrationActivity extends AppCompatActivity {
     public static final String TAG = "TAG";
     EditText mFullName, mEmail, mPassword, mAge;
     Button mRegisterBtn;
@@ -41,7 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_registration2);
 
         mFullName = findViewById(R.id.name);
         mEmail = findViewById(R.id.email);
@@ -53,11 +54,6 @@ public class RegisterActivity extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         progressBar = findViewById(R.id .progressBar);
-
-        if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(), com.example.moneymeditaion2.MainActivity.class));
-            finish();
-        }
 
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +87,7 @@ public class RegisterActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(RegisterActivity.this, "User Created.", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegistrationActivity.this, "User Created.", Toast.LENGTH_SHORT).show();
                             userID = fAuth.getCurrentUser().getUid();
                             DocumentReference documentReference = fStore.collection("users").document(userID);
                             Map<String, Object> user = new HashMap<>();
@@ -107,7 +103,7 @@ public class RegisterActivity extends AppCompatActivity {
                             startActivity(new Intent(getApplicationContext(),Profile.class));
 
                         }else {
-                            Toast.makeText(RegisterActivity.this, "Error - " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegistrationActivity.this, "Error - " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility((View.GONE));
                         }
                     }

@@ -29,9 +29,14 @@ public class Chapter4 extends AppCompatActivity {
         finish();
     }
 
+    public void back(View view) {
+        startActivity(new Intent(getApplicationContext(),LessonsActivity.class));
+        finish();
+    }
+
     public void play(View view) {
         if (player == null) {
-            player = MediaPlayer.create(this, R.raw.chapter1);
+            player = MediaPlayer.create(this, R.raw.chapter4);
             player.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                 @Override
                 public void onCompletion(MediaPlayer mp) {
@@ -57,7 +62,7 @@ public class Chapter4 extends AppCompatActivity {
 
     public void takeQuiz(View view) {
         stopPlayer();
-        startActivity(new Intent(getApplicationContext(),Quiz1Activity.class));
+        startActivity(new Intent(getApplicationContext(),Quiz4Activity.class));
         finish();
 
     }

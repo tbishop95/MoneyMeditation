@@ -82,6 +82,7 @@
         android:layout_marginRight="16dp"
         android:paddingBottom="32dp"
         android:text="BACK TO LESSONS"
+        android:onClick="back"
         app:backgroundTint="#2699FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/quizBtn"
@@ -159,6 +160,18 @@
         app:layout_constraintTop_toTopOf="@+id/imageView10"
         app:srcCompat="@android:drawable/ic_media_pause"
         android:onClick="pause"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="196dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.927"
+        app:srcCompat="@drawable/shark" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

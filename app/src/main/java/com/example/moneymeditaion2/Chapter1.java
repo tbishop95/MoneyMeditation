@@ -29,6 +29,11 @@ public class Chapter1 extends AppCompatActivity {
         finish();
     }
 
+    public void back(View view) {
+        startActivity(new Intent(getApplicationContext(),LessonsActivity.class));
+        finish();
+    }
+
     public void play(View view) {
         if (player == null) {
             player = MediaPlayer.create(this, R.raw.chapter1);

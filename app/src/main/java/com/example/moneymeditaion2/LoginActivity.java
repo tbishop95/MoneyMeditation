@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), com.example.moneymeditaion2.RegisterActivity.class));
+                startActivity(new Intent(getApplicationContext(), com.example.moneymeditaion2.RegistrationActivity.class));
             }
         });
 

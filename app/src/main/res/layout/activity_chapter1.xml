@@ -7,7 +7,7 @@
     tools:context=".Chapter1">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/logo_image"
         android:layout_width="177dp"
         android:layout_height="101dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,17 +60,6 @@
         app:layout_constraintVertical_bias="0.743"
         app:srcCompat="@drawable/ic_lessonbubble" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/backBtn"
-        app:layout_constraintEnd_toEndOf="@+id/backBtn"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="@+id/backBtn"
-        app:layout_constraintTop_toTopOf="@+id/backBtn"
-        app:layout_constraintVertical_bias="0.697"
-        app:srcCompat="@drawable/ic_back" />
 
     <Button
         android:id="@+id/backBtn"
@@ -82,6 +71,7 @@
         android:layout_marginRight="16dp"
         android:paddingBottom="32dp"
         android:text="BACK TO LESSONS"
+        android:onClick="back"
         app:backgroundTint="#2699FB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/quizBtn"
@@ -159,6 +149,18 @@
         app:layout_constraintTop_toTopOf="@+id/imageView10"
         app:srcCompat="@android:drawable/ic_media_pause"
         android:onClick="pause"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="196dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.927"
+        app:srcCompat="@drawable/katie_head" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

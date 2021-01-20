@@ -48,13 +48,15 @@ public class Profile extends AppCompatActivity {
 
     }
 
+
     public void logout(View view) {
         FirebaseAuth.getInstance().signOut(); //logout current user
-        startActivity(new Intent(getApplicationContext(), com.example.moneymeditaion2.MainActivity.class));
+        startActivity(new Intent(getApplicationContext(), com.example.moneymeditaion2.WelcomeActivity.class));
     }
 
     public void menu(View view) {
         startActivity(new Intent(getApplicationContext(),LessonsActivity.class));
         finish();
     }
+
 }

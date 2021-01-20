@@ -10,23 +10,23 @@ object Constants3{
 
         val que1 = Question(
                 1,
-                "Example Text for question 1",
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                2
+                "What is the key to living with limited financial resources?",
+                "Resist the urge to save",
+                "Borrow money to cover bills",
+                "Practice good money management",
+                "Marry into wealth",
+                3
         )
 
         questionsList.add(que1)
 
         val que2 = Question(
                 2,
-                "Example Text for question 2",
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
+                "The process of projecting, organizing, monitoring, and controlling future income and expenses is known as?",
+                "Budgeting",
+                "Investing",
+                "Money Management",
+                "Personal Finance",
                 4
         )
 
@@ -34,36 +34,36 @@ object Constants3{
 
         val que3 = Question(
                 3,
-                "Example Text for question 3",
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                1
+                "In case of emergency you should have what?",
+                "Good Credit",
+                "Money Saved",
+                "A Budget Plan",
+                "Credit Cards",
+                2
         )
 
         questionsList.add(que3)
 
         val que4 = Question(
                 4,
-                "Example Text for question 4",
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                2
+                "When you buy something using this method you have to pay it back and it sometimes it requires interest",
+                "Credit",
+                "Income",
+                "Savings",
+                "Investments",
+                1
         )
 
         questionsList.add(que4)
 
         val que5 = Question(
                 5,
-                "Example Text for question 5",
-                "Answer 1",
-                "Answer 2",
-                "Answer 3",
-                "Answer 4",
-                3
+                "What is the difference between a debit card and a credit card?",
+                "A debit card takes money immediately from a bank account. With a credit card you pay later. (plus interest)",
+                "A credit card takes money immediately from a bank account. With a debit card you pay later.",
+                "A credit card takes money immediately from your savings fund. With a debit card you are charged interest.",
+                "A debit card takes money immediately from your savings fund. With a debit card you are charged interest. (plus interest)",
+                1
         )
 
         questionsList.add(que5)

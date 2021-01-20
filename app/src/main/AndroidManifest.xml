@@ -10,6 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyMeditaion2">
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,26 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Quiz2Activity" />
-        <activity android:name=".ResultActivity1" />
-        <activity android:name=".Quiz1Activity" />
-        <activity android:name=".Chapter4" />
-        <activity android:name=".Chapter3" />
-        <activity android:name=".Chapter2" />
-        <activity android:name=".Chapter1" />
-        <activity android:name=".LessonsActivity" />
-        <activity android:name=".Profile" />
-        <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".LessonsActivity" />
+        <activity android:name=".Chapter1" />
+        <activity android:name=".Chapter2" />
+        <activity android:name=".Chapter3" />
+        <activity android:name=".Chapter4" />
+        <activity android:name=".Quiz1Activity" />
+        <activity android:name=".Quiz2Activity" />
+        <activity android:name=".Quiz3Activity" />
+        <activity android:name=".Quiz4Activity" />
+        <activity android:name=".ResultActivity1" />
     </application>
 
 </manifest>
